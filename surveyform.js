@@ -5,7 +5,7 @@ if (confirm("Press a button!")) {
 }
 
 function displayResult() {
-if (document.getElementById("Check").checked)
+if (document.getElementById("checkbox").checked)
    console.log("checked");
 else
    console.log("not checked");

@@ -8,7 +8,7 @@ p{
 p1 {
   color: black;
   position: absolute;
-  left: 420px;
+  left: 500px;
 }
 .body{
   border-radius: 20px;
@@ -20,6 +20,7 @@ p1 {
   line-height: 30px;
   color: blue;
   font-size: 20px;
+
 }
 
 #check {
@@ -36,4 +37,3 @@ button {
     position: absolute;
     right: 50%;
   }
-    
