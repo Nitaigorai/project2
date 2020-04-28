@@ -5,11 +5,7 @@ p{
   color: red;
   font-size: 22px;
 }
-p1 {
-  color: black;
-  position: absolute;
-  left: 500px;
-}
+
 .body{
   border-radius: 20px;
   width: 80%;
@@ -17,17 +13,37 @@ p1 {
   height:  auto;
   margin: 50px auto;
   background: lightyellow;
-  line-height: 30px;
+  line-height: 35px;
   color: blue;
   font-size: 20px;
 
 }
 
-#check {
+ p1 {
+  color: black;
+  position: absolute;
+  left: 485px;
+}
+
+
+#check, #countrySel, #stateSel, #districtSel {
   width: 30%;
   position: absolute;
   right: 530px;
+  line-height: 20px;
 }
+
+  p2{
+    color: black;
+    font-size: 16px;
+  }
+
+ #language{
+   position: relative;
+   left: 345px;
+   color: black;
+   font-size: 16px;
+ }
 
 button {
     border-radius: 5px;

@@ -24,17 +24,28 @@
         Birthday:
       <input id="check" type="date" name="bday" placeholder="Enter your DOB"><br>
   </form>
-      <label>How many siblings you have:
-        <select id = "check">
-        <option value = "1">one</option>
-        <option value = "2">two</option>
-        <option value = "3">three</option>
-        <option value = "4">four</option>
-        <option value = "4">five</option>
-      </select>
-</label><br>
+  <form name="myform" id="myForm">
+Select Country: <select name="state" id="countrySel" size="1">
+<option value="" selected="selected">Select Country</option>
+</select>
+<br>
+<br>
+Select State: <select name="country" id="stateSel" size="1">
+<option value="" selected="selected">Select State</option>
+</select>
+<br>
+<br>
+Select District: <select name="district" id="districtSel" size="1">
+<option value="" selected="selected">Select District</option>
+</select><br>
 
-<label for="language">Which Programming language you known:<p1><input id="indoor" type="checkbox" name="language">HTML<input id="indoor" type="checkbox" name="language">CSS<input id="indoor" type="checkbox" name="language">JAVA</p1></label>
+</form><closeform></closeform>
+
+<label for="language">Which Programming language you known:<p2><input type="checkbox" onClick="toggle(this)" /> Select All</p2><br/>
+    <div  id= "language"><input type="checkbox" name="check" value="check1"> HTML<br/>
+    <input type="checkbox" name="check" value="check2"> CSS<br/>
+    <input type="checkbox" name="check" value="check3"> JAVA<br/>
+    <input type="checkbox" name="check" value="check4"> PYTHON<br/></div></label>
 <br><label for="work">What you likes most to do work:<p1><input id="indoor" type="radio" name="work">work from home<input id="indoor" type="radio" name="work">At office</p1></label>
 
  <hr><label for="Check"><input type="checkbox" id="checkbox" name="Check">I confirm all the above details filled by my own knowledge.</label><br>
