@@ -2,7 +2,7 @@ var stateObject = {
 "India": { "Delhi": ["New Delhi", "North Delhi", "West Delhi", "North West Delhi", "South West Delhi", "South Delhi", "South East Delhi", "Central Delhi", "North East Delhi", "Shahdara", "East Delhi"],
 "Kerala": ["Thiruvananthapuram", "Palakkad"],
 "Goa": ["North Goa", "South Goa"],
-"West Bengal": ["Alipurduar", "Bankura", "Paschim Bardhaman", "Purba Bardhaman", "Birbhum", "Cooch Behar", "Darjeeling", "Uttar Dinajpur", "Dakshin Dinajpur", "Hooghly", ""],
+"West Bengal": ["Alipurduar", "Bankura", "Paschim Bardhaman", "Purba Bardhaman", "Birbhum", "Cooch Behar", "Darjeeling", "Uttar Dinajpur", "Dakshin Dinajpur", "Hooghly", "Howrah", "Jalpaiguri", "Jhargram", "Kolkata", "Kalimpong", "Malda", "Paschim Medinipur", "Purba Medinipur", "Murshidabad", "Nadia", "North 24 Parganas", "South 24 Parganas", "Purulia"],
 "Jharkhand": ["Garhwa", "Palamu", "Latehar", "Chatra", "Hazaribagh", "Koderma", "Giridih", "Ramgarh", "Bokaro", "Dhanbad", "Gumla", "Lohardaga", "Simdega", "Ranchi", "Khunti", "West Singhbhum", "Saraikela Kharsawan", "East Singhbhum", "Jamtara", "Deoghar", "Dumka", "Pakur", "Godda", "Sahebganj"],
 },
 
